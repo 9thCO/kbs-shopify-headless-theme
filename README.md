@@ -16,6 +16,22 @@ When using a headless Shopify setup, you normally don't want customers to access
 
 The sole purpose of this Liquid theme is to automatically redirect customers that land on one of the theme pages to the related page in your custom storefront.
 
+## Local development
+- this does not offer the full-featured preview available in the Themes > Customize section of Shopify's Admin > Online Store
+
+### Preview
+```
+npx shopify theme dev --store=sample-kbs.myshopify.com
+```
+
+### Build
+
+``` 
+npm run build
+```
+
+- upload `/dist/shopify-headless-theme-kbs` to your Shopify store
+
 ## Installation
 
 1. Download the [shopify-headless-theme-master.zip](https://github.com/instantcommerce/shopify-headless-theme/archive/refs/heads/master.zip) file
@@ -24,6 +40,7 @@ The sole purpose of this Liquid theme is to automatically redirect customers tha
 4. Click the **Customize** button of the newly installed theme
 5. Configure the `storefront_hostname` in **Theme settings > Storefront**
 6. **Publish** the theme 🚀
+
 
 ## Custom redirects
 
