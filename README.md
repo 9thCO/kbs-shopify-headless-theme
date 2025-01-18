@@ -20,6 +20,7 @@ The sole purpose of this Liquid theme is to automatically redirect customers tha
 - this does not offer the full-featured preview available in the Themes > Customize section of Shopify's Admin > Online Store
 
 ### Preview
+
 ```
 npx shopify theme dev --store=sample-kbs.myshopify.com
 ```
@@ -39,8 +40,17 @@ npm run build
 3. Upload the theme to your **Theme Library**
 4. Click the **Customize** button of the newly installed theme
 5. Configure the `storefront_hostname` in **Theme settings > Storefront**
+6. Favicon section > Upload a favicon
 6. **Publish** the theme 🚀
 
+### Customizing Checkout, Thank you, and Order status pages
+- go to Store Settings > Checkout > Configurations > Customize
+- there is no way to download a configuration, alas
+
+### Customizing email notifications
+- go to Store Settings > Notifications > Customize email templates button (top right) or `/settings/email_settings' from Admin
+- select logo
+- set accent color
 
 ## Custom redirects
 
