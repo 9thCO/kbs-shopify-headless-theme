@@ -9,5 +9,8 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -rf dist && mkdir dist && zip -r ./dist/shopify-headless-theme-kbs.zip ./*"
+  },
+  "devDependencies": {
+    "shopify": "^3.73.2"
   }
 }

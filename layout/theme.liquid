@@ -33,19 +33,32 @@
     %}
 
     {% style %}
+
+
+      /* Custom fonts */
+
+      @font-face {
+        font-family: "brandon";
+        src: url("{{ 'Brandonmed.woff2' | asset_url }}") format("woff2");
+      }
+
+      @font-face {
+        font-family: "segment";
+        src: url("{{ 'segment.woff2' | asset_url }}") format("woff2");
+      }
+
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
       {{ body_font_bold_italic | font_face: font_display: 'swap' }}
-      {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root {
-        --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+        --font-body-family: "segment", {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
         --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
 
-        --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+        --font-heading-family: "brandon", {{ settings.type_header_font.fallback_families }};
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }};
 
@@ -232,7 +245,7 @@
           }
         </script>
         {%- else -%}
-        <h1>Redirect URL not set</h1>
+        <h1>REDIRECT URL NOT SET</h1>
         <p>Configure the redirects in "Theme settings > Storefront".</p>
         {%- endif -%}
       </div>
