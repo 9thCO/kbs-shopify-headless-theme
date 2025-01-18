@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && mkdir dist && zip -r ./dist/shopify-headless-theme-kbs.zip ./*"
+    "build": "rm -rf dist && mkdir dist && zip -r ./dist/shopify-headless-theme-kbs.zip ./* -x \"node_modules/*\""
   },
   "devDependencies": {
     "shopify": "^3.73.2"
