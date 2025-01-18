@@ -1,14 +1,13 @@
 {
-  "name": "shopify-headless-theme",
+  "name": "shopify-headless-theme-kbs",
   "description": "Liquid theme that automatically redirects customers to your custom storefront.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
-    "name": "Instant Commerce",
-    "url": "https://instantcommerce.io/",
-    "email": "dev@instantcommerce.io"
+    "name": "Instant Commerce, Jacob Niedzwiecki",
+    "email": "jacob.niedzwiecki@9thco.com"
   },
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && mkdir dist && zip -r ./dist/shopify-headless-theme.zip ./*"
+    "build": "rm -rf dist && mkdir dist && zip -r ./dist/shopify-headless-theme-kbs.zip ./*"
   }
 }

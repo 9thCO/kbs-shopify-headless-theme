@@ -52,7 +52,7 @@
       {
         "type": "color",
         "id": "colors_accent_1",
-        "default": "#121212",
+        "default": "#E84E88",
         "label": "Accent 1",
         "info": "Used for solid button background."
       },
@@ -64,7 +64,7 @@
       {
         "type": "color",
         "id": "colors_accent_2",
-        "default": "#334FB4",
+        "default": "#61463A",
         "label": "Accent 2"
       },
       {
@@ -93,7 +93,7 @@
       {
         "type": "color",
         "id": "colors_background_1",
-        "default": "#FFFFFF",
+        "default": "#F8F3EF",
         "label": "Background 1"
       },
       {
@@ -104,7 +104,7 @@
       {
         "type": "color",
         "id": "colors_background_2",
-        "default": "#F3F3F3",
+        "default": "#EFE6DF",
         "label": "Background 2"
       },
       {

@@ -1,5 +1,19 @@
 /* Based on: https://github.com/Shopify/dawn/blob/v7.0.1/assets/base.css */
+
+/* Custom fonts */
+
+@font-face {
+  font-family: "brandon";
+  src: url("{{ 'Brandon_med.otf' | asset_url }}") format("otf");
+}
+
+@font-face {
+  font-family: "Segment";
+  src: url("{{ 'Segment-Regular.otf' | asset_url }}") format("otf");
+}
+
 /* Color custom properties */
+
 
 :root,
 .color-background-1 {
